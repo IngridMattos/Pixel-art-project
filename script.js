@@ -12,6 +12,7 @@ function addPixelFrame(){
     for (let i = 0; i < 25; i += 1){
         let pixels = document.createElement('div');
         pixels.className = 'pixel';
+        pixels.id = i;
         pixelFrame.appendChild(pixels);
     }
 }
@@ -30,9 +31,21 @@ function startingEvent(){
     });
 }
 
+function colorPixels() {
+    const divPixels = document.querySelector('#pixel-board');
+        divPixels.addEventListener('click', function (event) {
+            if (event.target.id !== 'pixel-board') {
+            const achandoOSelected = document.querySelector('.selected');
+            event.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+            }    
+    })
+    }
+    
+
 window.onload = function () {
     divBox()
     addPixelFrame()
     colorBlackFirst()
     startingEvent()
+    colorPixels()
 }
