@@ -15,7 +15,13 @@ function addPixelFrame(){
         pixelFrame.appendChild(pixels);
     }
 }
+function colorBlackFirst(){
+    const accessingDivs = document.getElementsByClassName('color')
+    accessingDivs[0].classList.add('selected')
+}
+
 window.onload = function () {
     divBox()
     addPixelFrame()
+    colorBlackFirst()
 }
