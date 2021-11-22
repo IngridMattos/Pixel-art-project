@@ -6,6 +6,16 @@ function divBox(){
         accessingDivs[i].style.backgroundColor = colorChoice[i - 1];
     }
 }
+
+function addPixelFrame(){
+    const pixelFrame = document.getElementById('pixel-board')
+    for (let i = 0; i < 25; i += 1){
+        let pixels = document.createElement('div');
+        pixels.className = 'pixel';
+        pixelFrame.appendChild(pixels);
+    }
+}
 window.onload = function () {
     divBox()
+    addPixelFrame()
 }
