@@ -20,8 +20,19 @@ function colorBlackFirst(){
     accessingDivs[0].classList.add('selected')
 }
 
+function startingEvent(){
+
+    const colorPaletSelect = document.getElementById('color-palette');
+    colorPaletSelect.addEventListener('click', function (evento){
+      const divsSelected = document.querySelector('.selected');
+      divsSelected.classList.remove('selected');
+      evento.target.classList.add('selected');
+    });
+}
+
 window.onload = function () {
     divBox()
     addPixelFrame()
     colorBlackFirst()
+    startingEvent()
 }
