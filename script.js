@@ -31,20 +31,19 @@ function startingEvent() {
 }
 
 function colorPixels() {
-    const daddyPixels = document.querySelector('#pixel-board');
-        daddyPixels.addEventListener('click', function (event) {
-            if (event.target.id !== 'pixel-board') {
-            const achandoOSelected = document.querySelector('.selected');
-            event.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
-            }    
-    })
-    }
-    
-
-window.onload = function () {
-    divBox()
-    addPixelFrame()
-    colorBlackFirst()
-    startingEvent()
-    colorPixels()
+  const daddyPixels = document.querySelector('#pixel-board');
+  daddyPixels.addEventListener('click', function (event) {
+    if (event.target.id !== 'pixel-board') {
+      const styleSelected = document.querySelector('.selected').style.backgroundColor;
+      event.target.style.backgroundColor = styleSelected;
+    }    
+  })
 }
+    
+window.onload = function () {
+  divBox();
+  addPixelFrame();
+  colorBlackFirst();
+  startingEvent();
+  colorPixels();
+};

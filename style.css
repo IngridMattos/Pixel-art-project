@@ -1,3 +1,9 @@
+h1 {
+  position: absolute;
+  top: 190px;
+  left: 850px;
+;
+}
 .color {
     width: 40px;
     height: 40px;
@@ -9,6 +15,7 @@
   }
   
   .pixel {
+    top : 500px;
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -16,11 +23,27 @@
     background-color: white;
   }
   
-#pixel-board{
+#pixel-board {
     width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 385px;
+    left: 855px;
   }
+
+
+#color-palette {
+  position: absolute;
+  top: 260px;
+  left: 870px;
+}
 body {
- text-align: center;
+  margin-top: 300px;
+}
+
+#clear-board {
+  position: absolute;
+    padding: 2px;
+    top: 330px;
+  left: 940px;
+   
 }
