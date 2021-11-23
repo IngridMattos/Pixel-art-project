@@ -39,6 +39,17 @@ function colorPixels() {
     }    
   })
 }
+
+function button() {
+  const findingButton = document.querySelector('#clear-board');
+  findingButton.addEventListener('click', function (event) {
+     const findingPixels = document.querySelectorAll('.pixel');
+     for (let i = 0; i < findingPixels.length; i += 1) {
+     findingPixels[i].style.backgroundColor = 'white';
+     console.log('texte');
+    }
+  });
+}
     
 window.onload = function () {
   divBox();
@@ -46,4 +57,5 @@ window.onload = function () {
   colorBlackFirst();
   startingEvent();
   colorPixels();
+  button();
 };
