@@ -1,3 +1,4 @@
+
 h1 {
   position: absolute;
   top: 190px;
@@ -28,6 +29,7 @@ h1 {
     position: absolute;
     top: 385px;
     left: 855px;
+    line-height: 0;
   }
 
 
@@ -38,6 +40,8 @@ h1 {
 }
 body {
   margin-top: 300px;
+  background-image: url('./gif.gif');
+  background-size: cover;
 }
 
 #clear-board {
@@ -45,5 +49,6 @@ body {
     padding: 2px;
     top: 330px;
   left: 940px;
+
    
 }
