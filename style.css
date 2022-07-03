@@ -36,7 +36,7 @@ h1 {
 
 #color-palette {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 44%;
 }
 
@@ -49,6 +49,6 @@ body {
 #clear-board {
   position: absolute;
   padding: 2px;
-  top: 44%;
-  left: 49%;
+  top: 46%;
+  left: 48%;
 }
