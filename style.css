@@ -1,9 +1,9 @@
-
 h1 {
   position: absolute;
-  top: 190px;
-  left: 850px;
-;
+  top: 2%;
+  left: 30%;
+  font-size: 100px;
+
 }
 
 .color {
@@ -26,15 +26,18 @@ h1 {
 }
 
 #pixel-board {
-    width: 250px;
-    position: absolute;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  line-height: 0;
 }
 
 
 #color-palette {
   position: absolute;
-  top: 260px;
-  left: 870px;
+  top: 35%;
+  left: 44%;
 }
 
 body {
@@ -45,9 +48,7 @@ body {
 
 #clear-board {
   position: absolute;
-    padding: 2px;
-    top: 330px;
-  left: 940px;
-
-   
+  padding: 2px;
+  top: 44%;
+  left: 49%;
 }
