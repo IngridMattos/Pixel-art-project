@@ -10,7 +10,7 @@ Ele consiste em um quadro de pixel que o usuário pode selecionar algumas cores 
 ![imagem do projeto](imagemDoPixelArt.png)
 
 
-### TECNOLOGIAS USADAS NO DESENVOLVIMENTO: 
+## TECNOLOGIAS USADAS NO DESENVOLVIMENTO: 
 
 - HTML
   
@@ -18,13 +18,13 @@ Ele consiste em um quadro de pixel que o usuário pode selecionar algumas cores 
   
 - JavaScript
 
-### HABILIDADES:
+## HABILIDADES:
 
 - Manipular o DOM
 
 - Manipular o Javascript
   
-### FEATURES
+## FEATURES
 
 - [x] Adicionar título.
 - [x] Adicionar paleta de cores.
